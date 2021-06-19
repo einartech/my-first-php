@@ -1,0 +1,16 @@
+<a href="index.php">GO BACK</a>
+<?php
+
+echo '<h1>Super Global $_SESSION</h1>';
+
+# $_SESSION SUPERGLOBAL
+session_start();
+
+$_SESSION['browser'] = $_SERVER['HTTP_USER_AGENT'];
+$_SESSION['ip'] = $_SERVER['REMOTE_ADDR'];
+$_SESSION['time'] = time();
+echo '<pre>';
+print_r($_SESSION);
+
+
+?> 

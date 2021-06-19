@@ -10,7 +10,8 @@
 <h1>PHP Server Environment</h1>
 <ol>
 <li><a href="/assembler/my-first-php/phpinfo.php">PHP Information</a></li>
-<li><a href="/assembler/my-first-php/phpserver.php">PHP $_SERVER</a></li>
+<li><a href="/assembler/my-first-php/server_variables.php">PHP $_SERVER</a></li>
+<li><a href="/assembler/my-first-php/session_variables.php">PHP $_SESSION</a></li>
 
 </ol>
 </body>
