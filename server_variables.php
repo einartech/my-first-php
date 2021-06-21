@@ -1,6 +1,10 @@
 <a href="index.php">GO BACK</a>
 <?php
 
+$username = $_GET['username'];
+echo "Hello $username, how are you feeling today? Lets checkout this lovely info!";
+
+
 echo '<h1>Super Global $_SERVER</h1>';
 
 echo'<ol>Information about: </ol>';
@@ -22,6 +26,7 @@ $server=[
 print("<pre>".print_r($server,true)."</pre>");
 
 
+
 echo'<li>Client Info :</li>';
 echo'<p>===>  Ex:Client Browser</p>';
 echo'<p>===>  Ex:Client IP Adress</p>';
@@ -36,9 +41,5 @@ $client=[
 ];
 
 print("<pre>".print_r($client,true)."</pre>");
-
-//echo $server;
-
-//Create Client Array
 
 ?> 
